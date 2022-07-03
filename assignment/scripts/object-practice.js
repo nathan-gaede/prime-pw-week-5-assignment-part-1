@@ -58,6 +58,7 @@ console.log(me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
-me.favoriteColor = ['green'];
+//Removed brackets from the string 'green' making it a value instead of an array.
+me.favoriteColor = 'green';
 console.log(me.favoriteColor);
 console.table(me);
